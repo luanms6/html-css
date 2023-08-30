@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            background-color:dimgray;
+            margin: 0px;
+        }
+
+        header{
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+        }
+
+        nav{
+            background-color:rgb(121, 121, 121);
+            margin: 18px;
+            padding: 3px;
+        }
+
+        nav > a{
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+            margin: 18px;
+            padding: 3px;
+        }
+
+        main{
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+            box-shadow: 4px 4px 9px 0px rgba(0,0, 0, 0.384);
+            border-radius: 10px 0px;
+        }
+
+        nav > a:hover{
+            text-decoration: underline;
+            margin-right: 30px;
+          
+        }
+
+        footer{
+            background-color: black;
+            color: white;
+            text-align: center;
+            padding: 1px;
+            margin: 0px;
+        }
+
+        article{
+            background-color: lightgray;
+            padding: 5px;
+        }
+
+        article > aside{
+            background-color: rgb(121, 121, 121);
+        }
+
+        footer > p{
+            padding: 4px;
+            margin: 0px;
+        }
+
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu site</h1>
+        <nav>
+            <a href="">Link</a>
+            <a href="">Link</a>
+            <a href="">Link</a>
+            <a href="">Link</a>
+            <a href="">Link</a>
+        </nav>
+    </header>
+
+    <main>
+        <section id="assuntos">
+            <p>Jogos da semana</p>
+        </section>
+
+        <section id="noticias">
+            <article>
+                <h2>Notícias sobre o vasco</h2>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Magni, aliquid quod odio id quisquam ducimus rerum, iusto nemo eum voluptates exercitationem! Libero enim suscipit dignissimos error corrupti, ratione dolor. Unde.
+                </p>
+
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni rerum velit, aliquam atque numquam fuga animi ipsum totam quod voluptas vel hic in amet consequatur ut. Sequi iusto autem laboriosam?</p>
+                <aside>
+                    <p>Artigo escrito por Vegetti</p>
+                </aside>
+            </article>
+            
+            <article>
+
+            </article>
+
+        </section>
+
+    </main>
+
+    <footer><p>Desenvolvido por Luan Peixoto.</p></footer>
+    
+</body>
+</html>
